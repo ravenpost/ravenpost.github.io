@@ -13,10 +13,11 @@
       font-family: 'gt-al';
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       flex-direction: column;
       height: 100vh;
       text-align: center;
+      padding-top:30px
     }
     a {
       color: #87d6bd;
@@ -28,18 +29,21 @@
     }
     canvas {
       border: 1px solid #000000;
+      margin-top: 30px
     }
   </style>
 </head>
 <body>
   <!-- content -->
   <div>
-    <a href="https://corvocorreio.com/"><img src="images/cc-pixel-icon.png" style="max-width: 100px;" alt="pixel raven"></a>
+    <a href="https://corvocorreio.com/">
+      <img src="images/cc-pixel-icon.png" style="max-width: 100px;" alt="pixel raven"></a>
     <h1>coming soon</h1>
     <p style="font-size: 14px">find me at <a href="https://corvocorreio.com">corvocorreio.com</a></p>
   </div>
 
   <!-- sketch.js file -->
+  <div id="canvasContainer"></div>
   <script src="sketch.js"></script>
 </body>
 </html>
