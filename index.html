@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>the raven post</title>
+  <title>The Raven Post - Coming Soon</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
   <style>
     body {
       margin: 0;
       background-color: black;
       color: white;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'gt-al';
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       height: 100vh;
       text-align: center;
     }
@@ -21,15 +23,23 @@
       text-decoration: none;
     }
     a:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      color: #c486f7;
+    }
+    canvas {
+      border: 1px solid #000000;
     }
   </style>
 </head>
 <body>
+  <!-- content -->
   <div>
-    <a href="https://corvocorreio.com/"><img src="images/cc-pixel-icon.png" max-width="80px" alt="pixel raven"></a>
+    <a href="https://corvocorreio.com/"><img src="images/cc-pixel-icon.png" style="max-width: 100px;" alt="pixel raven"></a>
     <h1>coming soon</h1>
-    <p style font-size="14px">find me at <a href="https://corvocorreio.com">corvocorreio.com</a></p>
+    <p style="font-size: 14px">find me at <a href="https://corvocorreio.com">corvocorreio.com</a></p>
   </div>
+  <br><br>
+  <!-- sketch.js file -->
+  <script src="sketch.js"></script>
 </body>
 </html>

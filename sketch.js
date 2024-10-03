@@ -1,10 +1,10 @@
 // sketch.js
 function setup() {
-  createCanvas(300, 300);
-  background(255);
+  createCanvas(250, 250);
+  background(250);
 }
 
 function draw() {
   fill(0);
-  ellipse(mouseX, mouseY, 40, 40);
+  ellipse(mouseX, mouseY, 30, 30);
 }
